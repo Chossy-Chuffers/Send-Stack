@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3024E30525355C8A00E71191 /* SendStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E30425355C8A00E71191 /* SendStackApp.swift */; };
+		3024E30725355C8A00E71191 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E30625355C8A00E71191 /* ContentView.swift */; };
+		3024E30925355C8F00E71191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3024E30825355C8F00E71191 /* Assets.xcassets */; };
+		3024E30C25355C8F00E71191 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3024E30B25355C8F00E71191 /* Preview Assets.xcassets */; };
+		3024E31725355C9000E71191 /* SendStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E31625355C9000E71191 /* SendStackTests.swift */; };
+		3024E32225355C9000E71191 /* SendStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E32125355C9000E71191 /* SendStackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3024E31325355C9000E71191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3024E2F925355C8A00E71191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3024E30025355C8A00E71191;
+			remoteInfo = SendStack;
+		};
+		3024E31E25355C9000E71191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3024E2F925355C8A00E71191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3024E30025355C8A00E71191;
+			remoteInfo = SendStack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3024E30125355C8A00E71191 /* SendStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024E30425355C8A00E71191 /* SendStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStackApp.swift; sourceTree = "<group>"; };
+		3024E30625355C8A00E71191 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3024E30825355C8F00E71191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3024E30B25355C8F00E71191 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3024E30D25355C8F00E71191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024E31225355C9000E71191 /* SendStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024E31625355C9000E71191 /* SendStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStackTests.swift; sourceTree = "<group>"; };
+		3024E31825355C9000E71191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024E31D25355C9000E71191 /* SendStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024E32125355C9000E71191 /* SendStackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStackUITests.swift; sourceTree = "<group>"; };
+		3024E32325355C9000E71191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3024E2FE25355C8A00E71191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024E30F25355C9000E71191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024E31A25355C9000E71191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3024E2F825355C8A00E71191 = {
+			isa = PBXGroup;
+			children = (
+				3024E30325355C8A00E71191 /* SendStack */,
+				3024E31525355C9000E71191 /* SendStackTests */,
+				3024E32025355C9000E71191 /* SendStackUITests */,
+				3024E30225355C8A00E71191 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3024E30225355C8A00E71191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3024E30125355C8A00E71191 /* SendStack.app */,
+				3024E31225355C9000E71191 /* SendStackTests.xctest */,
+				3024E31D25355C9000E71191 /* SendStackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3024E30325355C8A00E71191 /* SendStack */ = {
+			isa = PBXGroup;
+			children = (
+				3024E30425355C8A00E71191 /* SendStackApp.swift */,
+				3024E30625355C8A00E71191 /* ContentView.swift */,
+				3024E30825355C8F00E71191 /* Assets.xcassets */,
+				3024E30D25355C8F00E71191 /* Info.plist */,
+				3024E30A25355C8F00E71191 /* Preview Content */,
+			);
+			path = SendStack;
+			sourceTree = "<group>";
+		};
+		3024E30A25355C8F00E71191 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3024E30B25355C8F00E71191 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3024E31525355C9000E71191 /* SendStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				3024E31625355C9000E71191 /* SendStackTests.swift */,
+				3024E31825355C9000E71191 /* Info.plist */,
+			);
+			path = SendStackTests;
+			sourceTree = "<group>";
+		};
+		3024E32025355C9000E71191 /* SendStackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3024E32125355C9000E71191 /* SendStackUITests.swift */,
+				3024E32325355C9000E71191 /* Info.plist */,
+			);
+			path = SendStackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3024E30025355C8A00E71191 /* SendStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024E32625355C9000E71191 /* Build configuration list for PBXNativeTarget "SendStack" */;
+			buildPhases = (
+				3024E2FD25355C8A00E71191 /* Sources */,
+				3024E2FE25355C8A00E71191 /* Frameworks */,
+				3024E2FF25355C8A00E71191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendStack;
+			productName = SendStack;
+			productReference = 3024E30125355C8A00E71191 /* SendStack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3024E31125355C9000E71191 /* SendStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024E32925355C9000E71191 /* Build configuration list for PBXNativeTarget "SendStackTests" */;
+			buildPhases = (
+				3024E30E25355C9000E71191 /* Sources */,
+				3024E30F25355C9000E71191 /* Frameworks */,
+				3024E31025355C9000E71191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3024E31425355C9000E71191 /* PBXTargetDependency */,
+			);
+			name = SendStackTests;
+			productName = SendStackTests;
+			productReference = 3024E31225355C9000E71191 /* SendStackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3024E31C25355C9000E71191 /* SendStackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024E32C25355C9000E71191 /* Build configuration list for PBXNativeTarget "SendStackUITests" */;
+			buildPhases = (
+				3024E31925355C9000E71191 /* Sources */,
+				3024E31A25355C9000E71191 /* Frameworks */,
+				3024E31B25355C9000E71191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3024E31F25355C9000E71191 /* PBXTargetDependency */,
+			);
+			name = SendStackUITests;
+			productName = SendStackUITests;
+			productReference = 3024E31D25355C9000E71191 /* SendStackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3024E2F925355C8A00E71191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3024E30025355C8A00E71191 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					3024E31125355C9000E71191 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3024E30025355C8A00E71191;
+					};
+					3024E31C25355C9000E71191 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3024E30025355C8A00E71191;
+					};
+				};
+			};
+			buildConfigurationList = 3024E2FC25355C8A00E71191 /* Build configuration list for PBXProject "SendStack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3024E2F825355C8A00E71191;
+			productRefGroup = 3024E30225355C8A00E71191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3024E30025355C8A00E71191 /* SendStack */,
+				3024E31125355C9000E71191 /* SendStackTests */,
+				3024E31C25355C9000E71191 /* SendStackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3024E2FF25355C8A00E71191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024E30C25355C8F00E71191 /* Preview Assets.xcassets in Resources */,
+				3024E30925355C8F00E71191 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024E31025355C9000E71191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024E31B25355C9000E71191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3024E2FD25355C8A00E71191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024E30725355C8A00E71191 /* ContentView.swift in Sources */,
+				3024E30525355C8A00E71191 /* SendStackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024E30E25355C9000E71191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024E31725355C9000E71191 /* SendStackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024E31925355C9000E71191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024E32225355C9000E71191 /* SendStackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3024E31425355C9000E71191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3024E30025355C8A00E71191 /* SendStack */;
+			targetProxy = 3024E31325355C9000E71191 /* PBXContainerItemProxy */;
+		};
+		3024E31F25355C9000E71191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3024E30025355C8A00E71191 /* SendStack */;
+			targetProxy = 3024E31E25355C9000E71191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3024E32425355C9000E71191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3024E32525355C9000E71191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3024E32725355C9000E71191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SendStack/Preview Content\"";
+				DEVELOPMENT_TEAM = 8HZR7U32JK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SendStack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chossychuffers.SendStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3024E32825355C9000E71191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SendStack/Preview Content\"";
+				DEVELOPMENT_TEAM = 8HZR7U32JK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SendStack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chossychuffers.SendStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3024E32A25355C9000E71191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZR7U32JK;
+				INFOPLIST_FILE = SendStackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chossychuffers.SendStackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendStack.app/SendStack";
+			};
+			name = Debug;
+		};
+		3024E32B25355C9000E71191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZR7U32JK;
+				INFOPLIST_FILE = SendStackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chossychuffers.SendStackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendStack.app/SendStack";
+			};
+			name = Release;
+		};
+		3024E32D25355C9000E71191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZR7U32JK;
+				INFOPLIST_FILE = SendStackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chossychuffers.SendStackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendStack;
+			};
+			name = Debug;
+		};
+		3024E32E25355C9000E71191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HZR7U32JK;
+				INFOPLIST_FILE = SendStackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chossychuffers.SendStackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendStack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3024E2FC25355C8A00E71191 /* Build configuration list for PBXProject "SendStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024E32425355C9000E71191 /* Debug */,
+				3024E32525355C9000E71191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024E32625355C9000E71191 /* Build configuration list for PBXNativeTarget "SendStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024E32725355C9000E71191 /* Debug */,
+				3024E32825355C9000E71191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024E32925355C9000E71191 /* Build configuration list for PBXNativeTarget "SendStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024E32A25355C9000E71191 /* Debug */,
+				3024E32B25355C9000E71191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024E32C25355C9000E71191 /* Build configuration list for PBXNativeTarget "SendStackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024E32D25355C9000E71191 /* Debug */,
+				3024E32E25355C9000E71191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3024E2F925355C8A00E71191 /* Project object */;
+}
